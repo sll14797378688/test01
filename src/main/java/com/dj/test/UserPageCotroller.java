@@ -22,6 +22,7 @@ public class UserPageCotroller {
         System.out.println(userName);
         System.out.println(userName);
         System.out.println(userName);
+        System.out.println(userName);
 
         return "user/login";
     }
