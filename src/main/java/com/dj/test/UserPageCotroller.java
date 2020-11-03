@@ -20,6 +20,8 @@ public class UserPageCotroller {
     @RequestMapping("login")
     public String login(String userName) throws Exception{
         System.out.println(userName);
+        System.out.println(userName);
+
         return "user/login";
     }
 }
